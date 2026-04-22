@@ -1,5 +1,9 @@
 h1{
     color: rebeccapurple;
+text-align: center;
+}
+h2{
+    color: rgb(0, 0, 0);
 }
 .carousel-item , .carousel-item :active{
     height: 500px;
