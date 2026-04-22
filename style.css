@@ -26,9 +26,11 @@ body{
 }
 
 #logo{
-    width: 45px;
-    height: 20px;
+    width: 65px;
+    height: 45px;
 }
+
+
 header{
     background-color: white;
     width: 45%;
