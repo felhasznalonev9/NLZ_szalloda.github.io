@@ -22,8 +22,6 @@ body{
 #carousel-item , .carousel-item :active{
     height: 500px;
     object-fit: cover;
-    align-items: left;
-    float: left;
 }
 
 #logo{
