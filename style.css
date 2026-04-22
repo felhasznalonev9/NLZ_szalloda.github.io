@@ -88,7 +88,7 @@ header{
     color: black;
 }
 
-.topnav a.active{
+.topnav a.visited{
     background-color: #ddd;
     color: #ffffff;
 }
