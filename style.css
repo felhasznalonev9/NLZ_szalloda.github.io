@@ -89,13 +89,12 @@ header{
 }
 
 #rolunkcim{
-    font-size: larger;
+    font-size: 35px;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
+    font-weight: 20px;
 }
 
 #rolunk{
-    text-align: justify;
     border: solid brown 3px;
     font-style: italic;
     padding: 10px;
