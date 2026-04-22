@@ -105,7 +105,6 @@ header{
     font-weight: bolder;
     text-indent: 25px;
     float: right;
-    margin-top: 25px;
     margin-bottom: 40px;
     background-color: white;
 }
@@ -114,5 +113,4 @@ header{
     border: solid brown 3px;
     padding: 20px;
     margin-bottom: 40px;
-    margin-top: 30px;
 }
