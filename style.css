@@ -53,3 +53,9 @@ header{
     background-color: beige;
     background-repeat: no-repeat;
 }
+
+.bg-img{
+    background-image: url(img/hotel\ kulso.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
