@@ -22,7 +22,7 @@ body{
 .carousel-item , .carousel-item :active{
     height: 500px;
     object-fit: cover;
-
+    align-items: left;
 }
 
 header{
@@ -38,6 +38,7 @@ header{
     width: 45px;
     height: 60px;
     object-fit: cover;
+    
 }
 
 
