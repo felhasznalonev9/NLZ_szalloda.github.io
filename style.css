@@ -107,10 +107,12 @@ header{
     float: right;
     margin-top: 25px;
     margin-bottom: 40px;
+    background-color: white;
 }
 
 #elsokocka{
     border: solid brown 3px;
     padding: 20px;
     margin-bottom: 40px;
+    margin-top: 30px;
 }
