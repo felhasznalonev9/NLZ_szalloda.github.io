@@ -13,7 +13,9 @@ body{
     background-color: beige;
 }
 
-
+.negyven-tonna-kazahsztani-hangya{
+    background-color: brown;
+}
 
 .carousel-item , .carousel-item :active{
     height: 500px;
