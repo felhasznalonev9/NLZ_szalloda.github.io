@@ -22,7 +22,7 @@ body{
 #carousel-item , .carousel-item :active{
     height: 500px;
     object-fit: cover;
-    float: right;
+    align-items: right;
 }
 
 #logo{
