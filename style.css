@@ -125,3 +125,21 @@ header{
     background-color: wheat;
     border: solid brown 3px;
 }
+
+#svedasztal{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    padding: 10px;
+    background-color: wheat;
+    border: solid brown 3px;
+}
+
+#medenceslide{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    padding: 10px;
+    background-color: wheat;
+    border: solid brown 3px;
+}
