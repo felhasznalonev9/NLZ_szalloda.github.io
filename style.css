@@ -37,10 +37,15 @@ header{
 }
 
 
-.nav{
+nav{
     align-items: center;
     background-color: black;
     background-size: 50px 30px;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+#bg{
+    background-color: black;
+    background-repeat: no-repeat;
 }
