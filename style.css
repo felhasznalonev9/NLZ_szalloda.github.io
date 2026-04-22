@@ -12,7 +12,7 @@ h2{
 body{
     padding: 70px;
     width: 90%;
-    margin-left: auto;
+    margin: auto;
     background-image: url(img/Lover_erdo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
