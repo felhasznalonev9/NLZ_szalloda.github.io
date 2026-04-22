@@ -66,6 +66,8 @@ header{
     position: absolute;
     margin: 20px;
     width: auto;
+    border: solid black 2px;
+
 }
 
 .topnav a{
@@ -75,7 +77,6 @@ header{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    border: solid black 2px;
 }
 
 .topnav a:hover {
