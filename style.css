@@ -36,11 +36,10 @@ header{
     width: 45%;
     border: solid black 2px;
     padding: 40px;
+    display: block;
 }
 
-h1{
-    text-align: right;
-}
+
 
 
 .logo {
