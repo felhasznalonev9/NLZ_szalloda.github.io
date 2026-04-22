@@ -37,7 +37,6 @@ header{
     width: 45px;
     height: 60px;
     object-fit: cover;
-    
 }
 
 
@@ -51,6 +50,7 @@ header{
 #bg{
     background-color: beige;
     background-repeat: no-repeat;
+    border: solid brown 3px;
 }
 
 .bg-img{
