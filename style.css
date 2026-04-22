@@ -23,6 +23,7 @@ body{
     height: 500px;
     object-fit: cover;
     align-items: left;
+    float: left;
 }
 
 #logo{
@@ -99,7 +100,7 @@ header{
     border: solid brown 3px;
     font-style: italic;
     padding: 10px;
-    margin-left: 800px;
+    margin: auto;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     width: 600px;
