@@ -26,12 +26,11 @@ body{
 }
 
 header{
-    text-align: right;
+    text-align: left;
     background-color: white;
     width: 45%;
     border: solid black 2px;
     padding: 50px;
-    margin-left: 700px;
 }
 
 .logo {
