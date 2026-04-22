@@ -89,9 +89,10 @@ header{
 }
 
 #rolunkcim{
-    font-size: 35px;
+    font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
+    text-decoration: underline;
 }
 
 #rolunk{
@@ -103,5 +104,5 @@ header{
     font-family: 'Courier New', Courier, monospace;
     width: 600px;
     font-weight: bolder;
-    text-indent: 40px;
+    text-indent: 25px;
 }
