@@ -25,8 +25,11 @@ body{
     align-items: left;
 }
 
-header{
+h1{
     text-align: left;
+}
+
+header{
     background-color: white;
     width: 45%;
     border: solid black 2px;
