@@ -22,6 +22,7 @@ body{
 #carousel-item , .carousel-item :active{
     height: 500px;
     object-fit: cover;
+    align-items: right;
 }
 
 #logo{
@@ -103,5 +104,7 @@ header{
     width: 600px;
     font-weight: bolder;
     text-indent: 25px;
-    
+    float: right;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
