@@ -2,6 +2,6 @@ h1{
     color: rebeccapurple;
 }
 .carousel-item , .carousel-item :active{
-    height: 120px;
+    height: 500px;
     object-fit: cover;
 }
