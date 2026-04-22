@@ -34,7 +34,7 @@ header{
     margin: auto;
 }
 
-.logo {
+#logo {
     width: 45px;
     height: 60px;
     text-align: left;
