@@ -39,6 +39,8 @@ header{
 nav {
     align-items: center;
     background-color: black;
-    background-width: 60%;
+    background-size: 50px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
