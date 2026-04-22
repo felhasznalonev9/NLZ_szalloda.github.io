@@ -13,7 +13,7 @@ body{
     padding: 70px;
     width: 90%;
     margin-left: auto;
-    background-color: beige;
+    background-color: red;
 }
 
 
@@ -46,6 +46,6 @@ nav{
 }
 
 #bg{
-    background-color: black;
+    background-color: beige;
     background-repeat: no-repeat;
 }
