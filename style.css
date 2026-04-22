@@ -4,6 +4,5 @@ h1{
 .carousel-item , .carousel-item :active{
     height: 500px;
     object-fit: cover;
-    border: solid 3px red;
 
 }
