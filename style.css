@@ -35,3 +35,10 @@ header{
     height: 40px;
     text-align: left;
 }
+
+nav {
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
