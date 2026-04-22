@@ -108,3 +108,10 @@ header{
     margin-top: 25px;
     margin-bottom: 40px;
 }
+
+#elsokocka{
+    border: solid brown 3px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 40px;
+}
