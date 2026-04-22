@@ -25,7 +25,7 @@ body{
     align-items: right;
 }
 
-#logo{
+.logo{
     width: 15%;
     height: 10%;
     float: right;
