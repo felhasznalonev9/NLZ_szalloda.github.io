@@ -45,6 +45,8 @@ header{
 nav{
     align-items: center;
     background-size: 50px 30px;
+    background-color: brown;
+    background-size: 50px 30px;
     background-repeat: no-repeat;
     background-position: center;
 }
