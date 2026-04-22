@@ -88,9 +88,18 @@ header{
     color: black;
 }
 
+#rolunkcim{
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
 #rolunk{
     text-align: justify;
     border: solid brown 3px;
+    font-style: italic;
     padding: 10px;
     margin: auto;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
 }
