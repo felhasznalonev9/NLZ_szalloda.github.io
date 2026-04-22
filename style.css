@@ -25,9 +25,12 @@ body{
     align-items: left;
 }
 
-
+#logo{
+    width: 45px;
+    height: 20px;
+}
 header{
-    background-image: url(img/hotel\ logo.jpg);
+    background-color: white;
     width: 45%;
     border: solid black 2px;
     padding: 40px;
