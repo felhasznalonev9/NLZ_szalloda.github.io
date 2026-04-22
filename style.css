@@ -26,11 +26,11 @@ body{
 }
 
 header{
-    text-align: center;
+    text-align: right;
     background-color: white;
-    width: 65%;
+    width: 45%;
     border: solid black 2px;
-    padding: 70px;
+    padding: 50px;
     margin: auto;
 }
 
