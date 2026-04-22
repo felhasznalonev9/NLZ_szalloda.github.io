@@ -1,6 +1,6 @@
 h1{
     color: rebeccapurple;
-    margin-bottom: auto;
+text-align: center;
 }
 .carousel-item , .carousel-item :active{
     height: 500px;
