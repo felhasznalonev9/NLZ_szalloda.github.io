@@ -25,16 +25,18 @@ body{
     align-items: left;
 }
 
-h1{
-    text-align: left;
-}
 
 header{
     background-color: white;
     width: 45%;
     border: solid black 2px;
-    padding: 30px;
+    padding: 40px;
 }
+
+h1{
+    text-align: left;
+}
+
 
 .logo {
     width: 45px;
