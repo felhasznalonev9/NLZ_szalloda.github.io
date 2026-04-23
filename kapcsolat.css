@@ -1,0 +1,24 @@
+.nav{
+    background-size: 50px 30px;
+    background-color: rgb(160, 69, 69);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+#bg{
+    background-color: wheat;
+    background-repeat: no-repeat;
+    border: solid brown 3px;}
+#logo {
+    width: 109px;
+    height: 132px;
+    float: right;
+    margin-left: -200px;
+}
+body{
+    padding: 70px;
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
