@@ -86,6 +86,7 @@ body{
     color: black;
 }
 
+
 #rolunkcim{
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
@@ -140,6 +141,4 @@ body{
         border: solid brown 3px;
         height: 900px;
         background-color: beige;
-
-
 }
