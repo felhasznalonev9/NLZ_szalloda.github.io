@@ -7,55 +7,263 @@
     <title>Áraink</title>
 </head>
 <body>
-     <div class="row"></header><h1>Hotel Lővér</h1><img src="img/hotel logo.jpg" alt="logo" id="logo"></header></div>
+    <header>
+    <div class="nav-container">
+      <div class="logo">Sunrise <span>Hotel</span></div>
+      <nav>
+        <ul>
+          <li><a href="#rooms">Szobák</a></li>
+          <li><a href="#about">Rólunk</a></li>
+          <li><a href="#offers">Ajánlatok</a></li>
+          <li><a href="#contact">Kapcsolat</a></li>
+        </ul>
+      </nav>
+      <button class="btn-primary">Foglalás</button>
+    </div>
+  </header>
 
-    <div id="bg">
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Prémium szállás a város szívében</h1>
+      <p>
+        Modern szobák, wellness részleg és kiváló étterem – minden, amire egy tökéletes
+        pihenéshez vagy üzleti úthoz szükséged van.
+      </p>
 
-    <div class="container">
-        <div class="bg-img">
-            <div id="navnav">
-                <div class="topnav">
-                    <nav>
-                        <ul class="nav">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Kezdőlap</a></li>
-                            <li class="nav-item"><a class="nav-link" href="faszár.html">Áraink</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#idotpontfoglalas">Időpontfoglalás</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#kapcsolat">Kapcsolat</a></li>
-                        </ul>
-                    </nav>
-                </div>
+      <div class="hero-tags">
+        <span class="hero-tag">⭐ 4.8 vendégértékelés</span>
+        <span class="hero-tag">🏊 Wellness & spa</span>
+        <span class="hero-tag">🍽 Fine dining étterem</span>
+        <span class="hero-tag">🚗 Saját parkoló</span>
+      </div>
+
+      <div class="hero-actions">
+        <button class="btn-primary">Szobák megtekintése</button>
+        <button class="btn-outline">Virtuális bejárás</button>
+      </div>
+
+      <div class="search-box">
+        <div class="search-field">
+          <label>Érkezés</label>
+          <input type="date" />
+        </div>
+        <div class="search-field">
+          <label>Távozás</label>
+          <input type="date" />
+        </div>
+        <div class="search-field">
+          <label>Vendégek</label>
+          <select>
+            <option>2 felnőtt</option>
+            <option>1 felnőtt</option>
+            <option>2 felnőtt, 1 gyerek</option>
+            <option>2 felnőtt, 2 gyerek</option>
+          </select>
+        </div>
+        <button class="btn-primary">Keresés</button>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="rooms">
+      <h2 class="section-title">Kiemelt szobáink</h2>
+      <p class="section-subtitle">
+        Válassz a modern, tágas szobáink közül – minden kategóriában prémium felszereltséggel.
+      </p>
+
+      <div class="cards">
+        <article class="card">
+          <img src="https://images.pexels.com/photos/1571458/pexels-photo-1571458.jpeg" alt="Standard szoba" />
+          <div class="card-body">
+            <div class="card-title">Standard szoba</div>
+            <div class="card-meta">22 m² · franciaágy · városi kilátás</div>
+            <div class="amenities">
+              <span>Ingyenes Wi-Fi</span>
+              <span>Légkondicionáló</span>
+              <span>Smart TV</span>
             </div>
+            <div class="card-footer">
+              <div class="card-price">29 900 Ft / éj-től</div>
+              <span class="badge">Legjobb ár</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg" alt="Deluxe szoba" />
+          <div class="card-body">
+            <div class="card-title">Deluxe szoba</div>
+            <div class="card-meta">30 m² · king size ágy · erkély</div>
+            <div class="amenities">
+              <span>Ingyenes reggeli</span>
+              <span>Minibár</span>
+              <span>Kávégép</span>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">39 900 Ft / éj-től</div>
+              <span>Ingyenes lemondás</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg" alt="Lakosztály" />
+          <div class="card-body">
+            <div class="card-title">Executive lakosztály</div>
+            <div class="card-meta">45 m² · nappali · panoráma kilátás</div>
+            <div class="amenities">
+              <span>Privát lounge</span>
+              <span>Ingyenes spa belépő</span>
+              <span>VIP check-in</span>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">59 900 Ft / éj-től</div>
+              <span class="badge">Legnépszerűbb</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2 class="section-title">Rólunk</h2>
+      <p class="section-subtitle">
+        Egy hely, ahol a design, a kényelem és a vendégszeretet találkozik.
+      </p>
+
+      <div class="grid-2">
+        <div class="about-text">
+          <p>
+            A Sunrise Hotel a város központjában található, pár perc sétára a főbb
+            látnivalóktól és üzleti negyedtől. Szállodánk modern, letisztult stílusban
+            készült, különös figyelmet fordítva a részletekre.
+          </p>
+          <p>
+            Legyen szó hétvégi kikapcsolódásról, romantikus kiruccanásról vagy üzleti
+            útról, nálunk minden adott a gondtalan tartózkodáshoz.
+          </p>
+
+          <div class="about-highlights">
+            <div class="highlight">
+              <strong>Wellness & spa</strong>
+              Medence, szaunavilág és masszázs – teljes feltöltődés.
+            </div>
+            <div class="highlight">
+              <strong>Gourmet étterem</strong>
+              Helyi alapanyagok, nemzetközi fogások, válogatott borok.
+            </div>
+            <div class="highlight">
+              <strong>Konferenciatermek</strong>
+              Modern technika, rugalmas elrendezés, üzleti rendezvényekhez.
+            </div>
+            <div class="highlight">
+              <strong>24/7 recepció</strong>
+              Mindig van, aki segít – bármikor érkezel.
+            </div>
+          </div>
         </div>
 
-        <div class="row" id="elsokocka">
-            <div class="col-md-6" id="slidekep">
-                <div class="carousel slide" data-bs-ride="false" id="carousel-1">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active"><img class="w-100 d-block" src="img/jaccuzi.jpg" alt="Slide Image"> <p id="jacuzzislide">A Hotel Lővér wellness részlegének egyik 
-                            legkedveltebb eleme a benti jacuzzi, ahol vendégeink teljes nyugalomban kapcsolódhatnak ki. A kellemesen meleg, 
-                            pezsgő víz segít ellazítani az izmokat és levezetni a napi stresszt, így tökéletes választás egy hosszú nap után.
-                            A jacuzzi beltéri elhelyezkedésének köszönhetően az év bármely szakában zavartalanul élvezhető, legyen szó egy 
-                            téli feltöltődésről vagy egy nyári pihenésről. Ideális pároknak egy kis közös kikapcsolódásra, de bárki számára 
-                            remek lehetőség, aki szeretne egy kicsit kiszakadni a hétköznapokból és feltöltődni.</p></div>
-                        <div class="carousel-item"><img class="w-100 d-block" src="img/svedasztal.jpg" alt="Slide Image"> <p id="svedasztalslide">A Hotel Lővér szállodában a 
-                            pihenés mellett a gasztronómiai élményekre is nagy hangsúlyt fektetünk. Bárunk kellemes, 
-                            barátságos hangulatot kínál, ahol vendégeink egy frissítő ital, kávé vagy koktél mellett lazíthatnak, akár egy tartalmas nap 
-                            lezárásaként, akár egy könnyed beszélgetés közben.
-                            Éttermünkben gazdag svédasztalos kínálattal várjuk vendégeinket, ahol mindenki megtalálhatja a kedvére való fogásokat. 
-                            Reggel bőséges választékkal indíthatjuk a napot, míg vacsoránál változatos, ízletes ételek közül válogathatunk. 
-                            Kínálatunkban a hagyományos magyar ízek mellett könnyedebb és nemzetközi fogások is helyet kapnak, így minden alkalom egy élmény nálunk.</p></div>
-                        <div class="carousel-item"><img class="w-100 d-block" src="img/medence.jpg" alt="Slide Image"> <p id="medenceslide">A Hotel Lővér beltéri medencéje 
-                            tökéletes helyszínt biztosít a pihenésre és a feltöltődésre. Vendégeink számára kellemes hőmérsékletű vízzel és nyugodt környezettel tesszük lehetővé, 
-                            hogy bármely évszakban élvezhessék a fürdőzés élményét.
-                            A medence ideális egy frissítő úszáshoz vagy egy lazító fürdőzéshez, akár aktív kikapcsolódásként, 
-                            akár a wellness élmények részeként. Nálunk a nyugalom és a kényelem találkozik, 
-                            így vendégeink valóban kikapcsolódhatnak és feltöltődhetnek a mindennapok rohanása után.</p></div>
-                    </div>
-                    <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div>
-                    <div class="carousel-indicators"><button type="button" data-bs-target="#carousel-1" data-bs-slide-to="0" class="active"></button> <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="1"></button> <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="2"></button></div>
-                </div>
+        <div class="about-image">
+          <img src="https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg" alt="Hotel lobby" />
         </div>
+      </div>
+    </section>
 
+    <section id="offers">
+      <h2 class="section-title">Aktuális ajánlatok</h2>
+      <p class="section-subtitle">
+        Foglalj közvetlenül a weboldalunkon, és élvezd a kizárólag itt elérhető kedvezményeket.
+      </p>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card-body">
+            <div class="card-title">Hétvégi wellness csomag</div>
+            <div class="card-meta">2 éjszaka · félpanzió · spa belépő</div>
+            <p>Ideális pároknak, akik egy nyugodt, kényeztető hétvégére vágynak.</p>
+            <div class="card-footer">
+              <div class="card-price">89 900 Ft / 2 fő</div>
+              <button class="btn-outline">Részletek</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-body">
+            <div class="card-title">Üzleti utazó kedvezmény</div>
+            <div class="card-meta">Rugalmas lemondás · gyors check-in</div>
+            <p>Visszatérő üzleti vendégeinknek extra kedvezmények és szolgáltatások.</p>
+            <div class="card-footer">
+              <div class="card-price">-15% hosszabb tartózkodásnál</div>
+              <button class="btn-outline">Részletek</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">Kapcsolat</h2>
+      <p class="section-subtitle">
+        Kérdésed van a foglalással kapcsolatban? Írj nekünk vagy hívj minket bizalommal.
+      </p>
+
+      <div class="grid-2">
+        <div>
+          <p><strong>Cím:</strong> 4400 Nyíregyháza, Példa utca 12.</p>
+          <p><strong>Telefon:</strong> +36 42 123 456</p>
+          <p><strong>E-mail:</strong> info@sunrisehotel.hu</p>
+          <p><strong>Recepció:</strong> 0–24</p>
+        </div>
+        <div>
+          <form>
+            <div style="margin-bottom: 0.6rem;">
+              <label for="name" style="display:block;font-size:0.85rem;margin-bottom:0.2rem;">Név</label>
+              <input id="name" type="text" style="width:100%;padding:0.4rem 0.5rem;border-radius:0.5rem;border:1px solid #d1d5db;" />
+            </div>
+            <div style="margin-bottom: 0.6rem;">
+              <label for="email" style="display:block;font-size:0.85rem;margin-bottom:0.2rem;">E-mail</label>
+              <input id="email" type="email" style="width:100%;padding:0.4rem 0.5rem;border-radius:0.5rem;border:1px solid #d1d5db;" />
+            </div>
+            <div style="margin-bottom: 0.6rem;">
+              <label for="message" style="display:block;font-size:0.85rem;margin-bottom:0.2rem;">Üzenet</label>
+              <textarea id="message" rows="4" style="width:100%;padding:0.4rem 0.5rem;border-radius:0.5rem;border:1px solid #d1d5db;"></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Üzenet küldése</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h4>Sunrise Hotel</h4>
+        <p>Prémium szállás, modern környezetben, a város szívében.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Hasznos linkek</h4>
+        <ul>
+          <li><a href="#rooms">Szobák</a></li>
+          <li><a href="#offers">Ajánlatok</a></li>
+          <li><a href="#contact">Kapcsolat</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Közösségi média</h4>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Sunrise Hotel. Minden jog fenntartva.</span>
+      <span>Adatkezelés · Felhasználási feltételek</span>
+    </div>
+  </footer>
 
     
 </body>
