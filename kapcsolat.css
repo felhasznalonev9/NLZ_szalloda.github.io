@@ -23,12 +23,6 @@ body{
 }
 
 
-#carousel-item , .carousel-item :active{
-    height: 500px;
-    object-fit: cover;
-    align-items: right;
-}
-
 
 #logo {
     width: 109px;
