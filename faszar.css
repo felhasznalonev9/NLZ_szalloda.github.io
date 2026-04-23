@@ -278,15 +278,16 @@ body{
     }
 
     .section-title {
-      font-size: 1.6rem;
+      font-size: 2rem;
       margin-bottom: 0.5rem;
       color: var(--dark);
     }
 
     .section-subtitle {
-      font-size: 0.95rem;
-      color: #6b7280;
+      font-size: 1rem;
+      color: #222835;
       margin-bottom: 1.5rem;
+      font-style: italic;
     }
 
     .cards {
@@ -515,4 +516,12 @@ body{
   text-decoration: none;
 }
 
+#kiemelt{
+  border: solid brown 3px;
+  margin-top: 15px;
+  border-radius: 5%;
+}
 
+#contact{
+  padding: 40px;
+}
