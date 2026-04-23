@@ -164,6 +164,8 @@ body{
       padding: 0 1.5rem;
       text-align: center;
       color: white;
+      border-radius: 5%;
+      
     }
 
     .hero-content {
@@ -206,7 +208,7 @@ body{
     }
 
     .btn-outline {
-      background: transparent;
+      background-color: rgba(15, 23, 42, 0.9);
       color: white;
       border-radius: 999px;
       border: 1px solid rgba(255, 255, 255, 0.7);
@@ -490,3 +492,27 @@ body{
       .hero-content {
         margin-top: 4rem;
       }}
+
+#varossziv{
+  background-color: beige;
+  padding: 40px;
+  border: solid brown 2px;
+  border-radius: 5%;
+  opacity: 95%;
+}
+
+#varosszivp{
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+#varosszivh{
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
+}
+
+
