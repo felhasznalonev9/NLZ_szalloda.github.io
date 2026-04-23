@@ -1,12 +1,19 @@
 h1{
     color: black;
-    text-align: center;
-    font-size: 50px;
+    text-align: left;
+    font-size: 80px;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
+    padding-top: 20px;
+    text-decoration: underline brown 4px;
 }
 h2{
     color: black;
+}
+
+.teszt{
+  
+
 }
 
 body{
@@ -25,23 +32,16 @@ body{
     align-items: right;
 }
 
-#logo{
-    width: 15%;
-    height: 10%;
-}
 
 
-header{
-    background-color: white;
-    width: 45%;
-    border: solid black 2px;
-    padding: 40px;
-}
 
 
-.logo {
-    width: 45px;
-    height: 60px;
+
+#logo {
+    width: 109px;
+    height: 132px;
+    float: right;
+    margin-left: -200px;
 }
 
 
