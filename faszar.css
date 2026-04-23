@@ -12,12 +12,10 @@ h2{
 }
 
 body{
-    padding: 70px;
-    width: 90%;
+    width: 100%;
     margin: auto;
     background-color: white;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 #bg{
