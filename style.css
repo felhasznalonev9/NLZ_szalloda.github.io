@@ -109,6 +109,7 @@ header{
     float: right;
     margin-bottom: 40px;
     background-color: white;
+    min-height: 600px;
 }
 
 #elsokocka{
