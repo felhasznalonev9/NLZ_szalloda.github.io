@@ -114,7 +114,6 @@ header{
 #elsokocka{
     padding: 20px;
     margin-bottom: 40px;
-    border: solid brown 3px;
 
 }
 
@@ -140,4 +139,9 @@ header{
     font-style: italic;
     padding: 10px;
     background-color: wheat;
+}
+
+.carousel-inner{
+        border: solid brown 3px;
+
 }
