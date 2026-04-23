@@ -107,7 +107,7 @@ header{
     text-indent: 25px;
     margin-bottom: 40px;
     background-color: white;
-    min-height: 800px;
+    height: 900px;
 }
 
 #elsokocka{
@@ -142,5 +142,8 @@ header{
 
 .carousel-inner{
         border: solid brown 3px;
+        height: 900px;
+        background-color: wheat;
+
 
 }
