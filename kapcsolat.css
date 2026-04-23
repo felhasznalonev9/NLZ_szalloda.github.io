@@ -1,19 +1,18 @@
-.nav{
-    background-size: 50px 30px;
-    background-color: rgb(160, 69, 69);
-    background-repeat: no-repeat;
-    text-align: center;
+h1{
+    color: black;
+    text-align: left;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    padding-top: 20px;
+    text-decoration: underline brown 4px;
 }
-#bg{
-    background-color: wheat;
-    background-repeat: no-repeat;
-    border: solid brown 3px;}
-#logo {
-    width: 109px;
-    height: 132px;
-    float: right;
-    margin-left: -200px;
+h2{
+    color: black;
 }
+
+
+
 body{
     padding: 70px;
     width: 90%;
@@ -21,4 +20,33 @@ body{
     background-color: white;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+
+#carousel-item , .carousel-item :active{
+    height: 500px;
+    object-fit: cover;
+    align-items: right;
+}
+
+
+#logo {
+    width: 109px;
+    height: 132px;
+    float: right;
+    margin-left: -200px;
+}
+
+
+.nav{
+    background-size: 50px 30px;
+    background-color: rgb(160, 69, 69);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#bg{
+    background-color: wheat;
+    background-repeat: no-repeat;
+    border: solid brown 3px;    
 }
