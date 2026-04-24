@@ -21,7 +21,7 @@ body{
 #bg{
     background-color: wheat;
     background-repeat: no-repeat;
-    border: solid brown 3px;
+    border: solid #8B4513 3px;
 }
 
 #navnav{
@@ -48,7 +48,7 @@ body{
 
 .nav{
     background-size: 50px 30px;
-    background-color: rgb(160, 69, 69);
+    background-color: #8B4513;
     background-repeat: no-repeat;
     text-align: center;
 }
@@ -493,7 +493,7 @@ body{
 #varossziv{
   background-color: beige;
   padding: 40px;
-  border: solid brown 2px;
+  border: solid #8B4513 2px;
   border-radius: 5%;
   opacity: 95%;
 }
@@ -513,7 +513,7 @@ body{
 }
 
 #kiemelt{
-  border: solid brown 3px;
+  border: solid #8B4513 3px;
   margin-top: 15px;
   border-radius: 5%;
 }

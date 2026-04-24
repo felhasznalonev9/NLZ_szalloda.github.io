@@ -1,7 +1,7 @@
 h1{
     color: black;
     text-align: left;
-    font-size: 80px;
+    font-size: 200px;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
     padding-top: 20px;
@@ -23,14 +23,13 @@ body{
 #logo {
     width: 109px;
     height: 132px;
-    float: right;
-    margin-left: -200px;
+    margin-left: 120px;
 }
 
 
 .nav{
     background-size: 50px 30px;
-    background-color: rgb(160, 69, 69);
+    background-color: #8B4513;
     background-repeat: no-repeat;
     text-align: center;
 }
@@ -60,7 +59,7 @@ body{
 #bg{
     background-color: wheat;
     background-repeat: no-repeat;
-    border: solid brown 3px;    
+    border: solid #8B4513 3px;    
 }
 
     footer {
