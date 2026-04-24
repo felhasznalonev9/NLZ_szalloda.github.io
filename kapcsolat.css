@@ -117,3 +117,16 @@ body{
 
 
 
+table {
+    padding: 20px;
+    border: solid #1f2937 2px;
+    border-collapse: collapse;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+th, td, tr{
+    border: solid #1f2937 2px;
+    padding: 10px;
+    text-align: left;
+}
