@@ -11,25 +11,44 @@ h2{
     color: black;
 }
 
+#logo {
+    width: 109px;
+    height: 132px;
+    margin-left: 120px;
+}
+
 body{
     width: 100%;
     margin: auto;
-    background-color: white;
+    background-color: wheat;
     background-size: cover;
 }
 
-#bg{
-    background-color: wheat;
+.bg-img{
+    background-image: url(img/Lover_erdo.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    border: solid #8B4513 3px;
+    height: 500px;
 }
+
+#cimbox{
+    background-color: white;
+    padding: 15px;
+    border: solid #8B4513 2px;
+    border-radius: 15%;
+    float: right;
+    margin-right: 40px;
+    height: 400px;
+    width: 400px;
+    margin-top: 40px;
+}
+
 
 #navnav{
     position: absolute;
     margin: 20px;
     width: auto;
     border: solid #ddd 2px;
-
 }
 
 .topnav a{
@@ -69,12 +88,6 @@ body{
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
 
-    body {
-      background: var(--light);
-      color: var(--text);
-      line-height: 1.6;
-    }
-
     header {
       background: rgba(0, 0, 0, 0.55);
       color: white;
@@ -95,11 +108,6 @@ body{
       justify-content: space-between;
     }
 
-    .logo {
-      font-weight: 700;
-      letter-spacing: 1px;
-      font-size: 1.1rem;
-    }
 
     .logo span {
       color: var(--secondary);
