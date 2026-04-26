@@ -7,8 +7,19 @@ h1{
     padding-top: 20px;
     margin-left: 60px
 }
-h2{
-    color: black;
+
+#logo {
+    width: 109px;
+    height: 132px;
+    margin-left: 120px;
+}
+
+body{
+    width: 100%;
+    margin: auto;
+    background-color: wheat;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #cimbox{
@@ -23,26 +34,10 @@ h2{
     margin-top: 40px;
 }
 
-body{
-    width: 100%;
-    margin: auto;
-    background-color: wheat;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-
 #carousel-item , .carousel-item :active{
     height: 500px;
     object-fit: cover;
     align-items: right;
-}
-
-
-#logo {
-    width: 109px;
-    height: 132px;
-    margin-left: 120px;
 }
 
 

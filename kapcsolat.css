@@ -1,16 +1,18 @@
 h1{
     color: black;
     text-align: left;
-    font-size: 200px;
+    font-size: 80px;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
     padding-top: 20px;
+    margin-left: 60px
 }
 
-h2{
-    color: black;
+#logo {
+    width: 109px;
+    height: 132px;
+    margin-left: 120px;
 }
-
 
 body{
     width: 100%;
@@ -20,10 +22,16 @@ body{
     background-repeat: no-repeat;
 }
 
-#logo {
-    width: 109px;
-    height: 132px;
-    margin-left: 120px;
+#cimbox{
+    background-color: white;
+    padding: 15px;
+    border: solid #8B4513 2px;
+    border-radius: 15%;
+    float: right;
+    margin-right: 40px;
+    height: 400px;
+    width: 400px;
+    margin-top: 40px;
 }
 
 
@@ -32,13 +40,6 @@ body{
     background-color: #8B4513;
     background-repeat: no-repeat;
     text-align: center;
-}
-
-#navnav{
-    position: absolute;
-    margin: 20px;
-    width: auto;
-    border: solid #ddd 2px;
 }
 
 .topnav a{
@@ -55,11 +56,52 @@ body{
     color: black;
 }
 
+#navnav{
+    position: absolute;
+    margin: 20px;
+    width: auto;
+    border: solid #ddd 2px;
+}
 
 #bg{
     background-color: wheat;
+    border: solid #8B4513 3px;
+}
+
+
+.bg-img{
+    background-image: url(img/Lover_erdo.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    border: solid #8B4513 3px;    
+    height: 500px;
+    background-position: center;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 2px solid #8B4513;
+    padding: 12px;
+}
+
+table th {
+    background-color: #8B4513;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f5deb3;
+}
+
+table tr:nth-child(odd) {
+    background-color: #fff8dc;
 }
 
     footer {
